@@ -7,6 +7,7 @@ We use Python 3.9, PyTorch 1.13.1 (CUDA 11.7 build), torchvision 0.14.1, diffuse
   ```bash
   conda create --name mam python=3.9 -y
   conda activate mam
+  conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
   ```
 
 ### Install packages and other dependencies.
@@ -28,6 +29,9 @@ We use Python 3.9, PyTorch 1.13.1 (CUDA 11.7 build), torchvision 0.14.1, diffuse
 
   #Install diffusers
   pip install --upgrade diffusers[torch]
+
+  cd .\GroundingDINO\
+  pip install -q -e .
   ```
 More details can be found in [segment anything](https://github.com/facebookresearch/segment-anything#installation) and [ GroundingDINO](https://github.com/IDEA-Research/GroundingDINO#install) if you meet any installation issues.
 

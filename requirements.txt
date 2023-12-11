@@ -1,6 +1,6 @@
 addict
 diffusers
-gradio
+gradio==3.39.0
 huggingface_hub
 numpy
 Pillow
@@ -20,4 +20,5 @@ scikit-image
 opencv-python
 pycocotools
 matplotlib
-
+typing_extensions==4.8.0
+chardet
